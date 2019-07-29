@@ -16,7 +16,7 @@
         <label class="label">Email ID</label>
             <input type="email" name="email" />
 
-        <label class="label">Phone Number (without Country code)</label>
+        <label class="label">Phone Number</label>
             <input type="text" name="phone" />
 
         <label class="label">Type your Message Here</label>
