@@ -66,7 +66,7 @@ if(isset($_POST['submit'])){
                     alert('Sorry mail was not send due to some server problem, please try again later!');
                     window.history.back();
                 </script>";
-                echo $mail->ErrorInfo;
+                // echo $mail->ErrorInfo;
         } 
         else 
         {
