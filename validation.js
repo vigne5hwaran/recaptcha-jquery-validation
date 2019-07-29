@@ -1,7 +1,7 @@
 function recaptchaCallback() {
   var response = grecaptcha.getResponse();
   jQuery("#grecaptcha").val(response);
-  console.log(jQuery("#sky-form1").valid());
+  console.log(jQuery("#sky-form").valid());
 }
 function recaptchaExpired() {
   jQuery("#grecaptcha").val("");
@@ -11,7 +11,7 @@ var Validation = (function() {
   return {
     //Validation
     initValidation: function() {
-      $("#sky-form1").validate({
+      $("#sky-form").validate({
         // Rules for form validation
         rules: {
           name: {
