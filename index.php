@@ -29,6 +29,6 @@
     <button name="submit" type="submit" class="btn-u btn-u-default">Submit</button>
     <button type="button" class="btn-u" onclick="window.history.back();">Cancel</button>
     </form>
-    <script type="text/javascript" src="assets/js/plugins/validation.js"></script>
+    <script type="text/javascript" src="validation.js"></script>
 </body>
 </html>
