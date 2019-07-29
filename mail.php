@@ -2,7 +2,7 @@
 require("vendor/phpmailer/phpmailer/src/PHPMailer.php");
 require("vendor/phpmailer/phpmailer/src/SMTP.php");
 
-$secretKey = "private_key";
+$secretKey = "your_private_key";
 $responseKey = $_POST['g-recaptcha-response'];
 $userIP = $_SERVER['REMOTE_ADDR'];
 $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$userIP";
