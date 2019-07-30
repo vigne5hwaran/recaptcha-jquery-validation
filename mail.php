@@ -24,7 +24,7 @@ if(isset($_POST['submit'])){
         $mail->addAddress("example@gmail.com"); //Recipient name is optional
 
         //Address to which recipient will reply
-        $mail->addReplyTo("info@example.com", "Reply");
+        $mail->addReplyTo($_POST['email'], "Reply");
 
         //CC and BCC
         $mail->addCC("cc@example.com");
