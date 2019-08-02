@@ -17,7 +17,7 @@ if(isset($_POST['submit'])){
        
        //From email address and name
         $mail->From = "info@example.com";
-        $mail->FromName = "Mr.x";
+        $mail->FromName = "Enquiry";
 
         //To address and name
         $mail->addAddress("example@gmail.com");
@@ -33,7 +33,7 @@ if(isset($_POST['submit'])){
         //Send HTML or Plain Text email
         $mail->isHTML(true);
 
-        $mail->Subject = "Enquiry From example.in";
+        $mail->Subject = "Enquiry From example.com";
         $mail->Body = "<html>
             <head>
                 <title>HTML email</title>
