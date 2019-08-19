@@ -41,16 +41,16 @@ if(isset($_POST['submit'])){
             <body>
                 <table>
                     <tr>
-                        <td><strong>FullName</strong></td><td>:</td><td>".$_POST['name']."</td>					
+                        <td><strong>Full Name</strong></td><td>:</td><td>".$_POST['name']."</td>					
                     </tr>
                     <tr>
-                        <td><strong>EmailID</strong></td><td>:</td><td>".$_POST['email']."</td>					
+                        <td><strong>Email ID</strong></td><td>:</td><td>".$_POST['email']."</td>					
                     </tr>
                     <tr>
-                        <td><strong>Country</strong></td><td>:</td><td>".$_POST['country']."</td>					
+                        <td><strong>Subject</strong></td><td>:</td><td>".$_POST['subject']."</td>					
                     </tr>
                     <tr>
-                        <td><strong>Mobile</strong></td><td>:</td><td>".$_POST['phone']."</td>					
+                        <td><strong>Mobile</strong></td><td>:</td><td>".$_POST['mobile']."</td>					
                     </tr>
                     <tr>
                         <td><strong>Message</strong></td><td>:</td><td>".$_POST['message']."</td>					
