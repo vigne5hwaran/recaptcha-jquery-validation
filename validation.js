@@ -82,44 +82,22 @@ $("#sky-form").validate({
   // Messages for form validation
   messages: {
     name: {
-      required: "This field is required"
+      required: "Please enter your name"
     },
     email: {
-      required: "Please enter your email address",
-      email: "Please enter a Valid email address"
+      required: "Please enter your email address"
     },
-    country: {
-      required: "This field is required"
+    subject: {
+      required: "Please enter subject"
     },
-    url: {
-      required: "Please enter your URL"
+    phone: {
+      required: "Please enter your Phone number"
     },
-    date: {
-      required: "Please enter some date"
+    message: {
+      required: "Please say something"
     },
-    min: {
-      required: "Please enter some text"
-    },
-    max: {
-      required: "Please enter some text"
-    },
-    range: {
-      required: "Please enter some text"
-    },
-    digits: {
-      required: "Please enter some digits"
-    },
-    number: {
-      required: "Please enter some number"
-    },
-    minVal: {
-      required: "Please enter some value"
-    },
-    maxVal: {
-      required: "Please enter some value"
-    },
-    rangeVal: {
-      required: "Please enter some value"
+    grecaptcha: {
+      required: "Please check the recaptcha"
     }
   }
 });
